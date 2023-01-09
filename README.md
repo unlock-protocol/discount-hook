@@ -2,7 +2,7 @@
 
 This project implements an Unlock [PublicLock Hook](https://docs.unlock-protocol.com/core-protocol/public-lock/hooks) that can be used on Locks smart contracts to support "Discount Code".
 
-This process is _secured_ and cannot be bypassed by calling the contract directly as the password is used to submit the transaction on-chain.
+This process is _secured_ and cannot be bypassed by calling the contract directly as the discount code is used to submit the transaction on-chain.
 
 When the user enters a discount code on the frontend application, it is used to generate a private key that is then used to sign the recipient's address. That signature is passed as the data argument on the `purchase` call.
 
@@ -32,13 +32,23 @@ If you don't enter a discount code, you will pay the full price of 0.01 Eth.
 
 ## Using the hook for your own lock
 
-1. First, you need to generate promo codes, then [go to this page to generate the corresponding Ethereum address](https://unlock-protocol.github.io/password-required-hook/). You can also generate this locally if needed by checking out the repo and switching to the `gh-page` branch.
+1. First, you need to generate promo codes, then [go to this page to generate the corresponding Ethereum address](https://unlock-protocol.github.io/discount-hook/). You can also generate this locally if needed by checking out the repo and switching to the `gh-page` branch. 
 
-2. Then, click on which network your lock has been deployed on (list above) and head `Contract` > `Write Contract`. Connect your wallet (you need to be connected as a lock's manager) and click on `setDiscountForLock`. There, enter the lock address, and then the signer address generated in the previous step and the discount to be applied. Since the EVM does not support floating numbers, you have to enter the value in "basis points". For example for a 100% discount, you would enter `10000`. For a 3% discount, you would enter `300`.
+<img width="1044" alt="Screen Shot 2023-01-09 at 12 55 04 PM" src="https://user-images.githubusercontent.com/17735/211374963-b9fc6999-50ce-4e91-8ae4-4a5a55db91e8.png">
 
-3. Finally, you need to point your lock to the hook. You can do that by going to your lock's settings page on the Unlock Dashboard. Then check the Advanced tab and the Hooks section.
+
+2. Then, click on which network your lock has been deployed on (list above) and head to `Contract` > `Write Contract`. Connect your wallet (you need to be connected as a lock's manager) and click on `setDiscountForLock`. There, enter the lock address, and then the signer address generated in the previous step and the discount to be applied. Since the EVM does not support floating numbers, you have to enter the value in "basis points". For example for a 100% discount, you would enter `10000`. For a 3% discount, you would enter `300`.
+
+<img width="696" alt="Screen Shot 2023-01-09 at 12 56 45 PM" src="https://user-images.githubusercontent.com/17735/211375263-029bfd0a-a421-4188-b329-b664819bf5e4.png">
+
+3. After that, you need to point your lock to the hook. You can do that by going to your lock's settings page on the Unlock Dashboard. Then check the Advanced tab and the Hooks section.
+
+<img width="1266" alt="Screen Shot 2023-01-09 at 12 57 19 PM" src="https://user-images.githubusercontent.com/17735/211375358-c00fecba-d4e5-46d9-a8cb-2ab00aec9731.png">
 
 4. Finally, [build a Checkout URL](https://docs.unlock-protocol.com/tools/checkout/configuration) and make sure you tick `Promo Codes` option for the lock to which you are applying a discount!
+
+<img width="751" alt="Screen Shot 2023-01-09 at 12 57 52 PM" src="https://user-images.githubusercontent.com/17735/211375444-f59089c9-c320-4c3f-8db0-c85a15836466.png">
+
 
 ## Dev
 
