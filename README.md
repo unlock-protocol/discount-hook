@@ -12,12 +12,12 @@ The Unlock Protocol team has deployed and verified a version of this hook on the
 
 Production networks:
 
-- [Optimism](https://optimistic.etherscan.io/address/0x8e0B46ec3B95c81355175693dA0083b00fCc1326)
-- [Polygon](https://polygonscan.com/address/0x93E160838c529873cB7565106bBb79a3226FE07A)
+- [Optimism: `0x8e0B46ec3B95c81355175693dA0083b00fCc1326`](https://optimistic.etherscan.io/address/0x8e0B46ec3B95c81355175693dA0083b00fCc1326)
+- [Polygon: `0x93E160838c529873cB7565106bBb79a3226FE07A`](https://polygonscan.com/address/0x93E160838c529873cB7565106bBb79a3226FE07A)
 
 Test networks:
 
-- [Goerli](https://goerli.etherscan.io/address/0x850c015A6A88756a59Dc025fca988494fF90DBB7)
+- [Goerli: `0x850c015A6A88756a59Dc025fca988494fF90DBB7`](https://goerli.etherscan.io/address/0x850c015A6A88756a59Dc025fca988494fF90DBB7)
 
 ## Example
 
