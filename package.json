@@ -29,7 +29,7 @@
     "@openzeppelin/contracts": "^4.8.0",
     "@unlock-protocol/contracts": "^0.0.15",
     "@unlock-protocol/hardhat-plugin": "^0.0.18",
-    "@unlock-protocol/networks": "^0.0.9",
+    "@unlock-protocol/networks": "^0.0.21",
     "hardhat-sourcify": "^0.0.1"
   }
 }
