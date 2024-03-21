@@ -976,10 +976,10 @@
   resolved "https://registry.yarnpkg.com/@unlock-protocol/contracts/-/contracts-0.0.13.tgz#7ec76d73991eb729c86c0ed87235b098f9f50c2a"
   integrity sha512-9lD2YIOOcS/+RB0BCPqWgYmuXF5v1ec/+qevh/Lsq5u7IZRfDUOkEP1LuNLlj1vHP7kdg0ww95ZeWPPzd5dgwQ==
 
-"@unlock-protocol/contracts@^0.0.15":
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/@unlock-protocol/contracts/-/contracts-0.0.15.tgz#a2f58b714ba1647e1af8f0bccd7fb336533f9095"
-  integrity sha512-W06jtASk6NtWtq0EIqsNzmdKj9ZIABzsnJ0jkuG1JFY5XF1XF2ZZO19q5NnrvgFBxQiRgjYG3PqFKliWObj16w==
+"@unlock-protocol/contracts@^0.0.25":
+  version "0.0.25"
+  resolved "https://registry.yarnpkg.com/@unlock-protocol/contracts/-/contracts-0.0.25.tgz#16b907dfb33b3f499528957f6100fd7e35892e43"
+  integrity sha512-Q0QK8YPIA+pNfTH+XBb6KI+AmKNzGd43tdfMKjWXnQ6RkDyevVEFt/5Sm+bq6drzhsq7bavl6qJC6o1NpgeH9g==
 
 "@unlock-protocol/hardhat-plugin@^0.0.18":
   version "0.0.18"
